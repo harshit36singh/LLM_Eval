@@ -1,13 +1,13 @@
-package com.example.LLM_Eval;
+package com.example.llm_eval;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProjectApplication {
+public class LlmEvalApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProjectApplication.class, args);
+		SpringApplication.run(LlmEvalApplication.class, args);
 	}
 
 }

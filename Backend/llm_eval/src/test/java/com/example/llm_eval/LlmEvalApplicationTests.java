@@ -1,10 +1,10 @@
-package com.example.project;
+package com.example.llm_eval;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProjectApplicationTests {
+class LlmEvalApplicationTests {
 
 	@Test
 	void contextLoads() {

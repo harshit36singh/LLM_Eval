@@ -1,4 +1,4 @@
-package com.example.LLM_Eval.model;
+package com.example.llm_eval.model;
 
 import java.time.Instant;
 
@@ -10,15 +10,12 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Prompt {
-    
-    @Id
+     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false,length = 2000)
+    @Column(nullable = false, length = 2000)
     private String text;
 
-    
-    private Instant createdAt=Instant.now();
-
+    private Instant createdAt = Instant.now();
 }
